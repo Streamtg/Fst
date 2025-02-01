@@ -1,7 +1,6 @@
 aiohttp
 aiofiles
 apscheduler
-pyrogram==2.0.30 
 python-dotenv
 requests
 tgcrypto
