@@ -5,7 +5,7 @@ from pyrogram import Client
 from ..vars import Var
 
 StreamBot = Client(
-    session_name= 'Web Streamer',
+    "WebStreamer",  # ✅ Nombre de la sesión como primer argumento
     api_id=Var.API_ID,
     api_hash=Var.API_HASH,
     bot_token=Var.BOT_TOKEN,
