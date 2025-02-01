@@ -1,7 +1,11 @@
-from pyrogram import Client  # ✅ Importación correcta
-from ..vars import Var  # Asegura que 'Var' se importe correctamente
+# This file is a part of TG-FileStreamBot
+# Coding : Jyothis Jayanth [@EverythingSuckz]
+
+from pyrogram import Client
+from ..vars import Var
+
 StreamBot = Client(
-    "WebStreamer",  # ✅ Nombre de sesión sin argumento explícito
+    session_name= 'Web Streamer',
     api_id=Var.API_ID,
     api_hash=Var.API_HASH,
     bot_token=Var.BOT_TOKEN,
