@@ -1,3 +1,5 @@
+from pyrogram import Client  # ✅ Importación correcta
+from ..vars import Var  # Asegura que 'Var' se importe correctamente
 StreamBot = Client(
     "WebStreamer",  # ✅ Nombre de sesión sin argumento explícito
     api_id=Var.API_ID,
