@@ -10,7 +10,7 @@ import (
 	"github.com/gotd/td/tg"
 	"go.uber.org/zap"
 
-	"github.com/celestix/gotgproto/utils" // Ruta original de telegramReader
+	"github.com/celestix/gotgproto v1.0.0-beta18" // Ruta original de telegramReader
 )
 
 var logger *zap.Logger
